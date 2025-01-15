@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS account (
+    id SERIAL PRIMARY KEY,
+    account VARCHAR(50) NOT NULL,
+    active BOOLEAN NOT NULL
+);
